@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bank Balance</title>
+
+    <link rel="stylesheet" href="exp1.1.2.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Balance: $<span id="balance">100</span></h1>
+
+    <label>Amount</label>
+    <input type="number" id="amount" placeholder="Enter amount">
+
+    <div class="btn-container">
+        <button class="deposit" onclick="deposit()">Deposit</button>
+        <button class="withdraw" onclick="withdraw()">Withdraw</button>
+    </div>
+
+    <div class="error" id="error">Invalid amount!</div>
+</div>
+
+<script src="exp1.1.2.js"></script>
+</body>
+</html>
